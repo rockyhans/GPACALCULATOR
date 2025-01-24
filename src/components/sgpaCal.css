@@ -1,0 +1,419 @@
+/* SGPA css */
+.sgpaCal {
+  width: 70%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  margin-left: 15%;
+  background-color: #001d24;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(5, 6, 6);
+  height: 99%;
+  margin-top: 0.5%;
+  background-color: #001d24;
+}
+
+.mainDiv h2 {
+  color: orangered;
+  text-align: center;
+  border-bottom: 2px double skyblue;
+  padding: 10px;
+}
+
+.inputDiv {
+  padding: 10px;
+  overflow-y: auto;
+  overflow-y: scroll; /* Enable vertical scrolling */
+  min-height: 500px;
+  max-height: 550px;
+  width: 80%;
+  margin-left: 10%;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 30px;
+  background-image: url("./SGPA-Calculator-2.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#submit {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: blue;
+  font-size: x-large;
+  margin-left: 50%;
+  border: none;
+  color: red;
+
+  padding: 5px 10px 5px 10px;
+  border-radius: 7px;
+  font-weight: bold;
+  background-color: black;
+
+  transition: border 0.3s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth transition */
+}
+
+#submit:hover {
+  box-shadow: 0px 0px 10px rgb(103, 208, 250);
+  border-radius: 15px;
+}
+
+#sgpa {
+  margin-top: 15px;
+  height: auto;
+  width: 80%;
+  text-align: center;
+  display: flex;
+  border-radius: 40px;
+  font-size: 1.23rem;
+  margin-left: auto;
+  margin-right: auto; /* Centered on all screen sizes */
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+#sgpa h3 {
+  text-shadow: 0px 0px 10px greenyellow;
+}
+
+.saveBtn {
+  height: 40px;
+  width: 100px;
+  padding: 0px 10px 0px 10px;
+  background: none;
+  border: none;
+  color: blue;
+  background-color: skyblue;
+  border-radius: 15px;
+  transition: border 0.3s ease-in-out; /* Smooth transition */
+}
+
+.saveBtn:hover {
+  border: 4px solid rgb(2, 106, 147);
+  border-radius: 20px;
+  background-color: rgba(135, 207, 235, 0.79);
+}
+
+.sunNum {
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  outline: none;
+  background-color: black;
+  padding: 0px;
+  border: none;
+  transition: box-shadow 0.2s ease-in-out; /* Smooth transition */
+  margin-top: 10px;
+  box-shadow: 0px 0px 10px skyblue;
+}
+
+.sunNum:hover {
+  box-shadow: 0px 0px 10px skyblue;
+}
+
+.inputGenerate {
+  height: 50px;
+  width: 150px;
+  background-color: rgb(1, 47, 84);
+  color: white;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 25px;
+  text-align: center;
+  font-size: 30px;
+  border: solid 2px rgb(1, 47, 84);
+  gap: 20px;
+}
+
+.Inp {
+  width: 150px;
+  color: black;
+  outline: none;
+  border: none;
+  padding: 7px;
+  background-color: rgba(255, 250, 250, 0.8);
+  border-radius: 7px;
+  text-align: center;
+}
+
+.Inp1 {
+  background-color: rgba(255, 250, 250, 0.45);
+}
+
+.div1 {
+  display: flex;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: snow;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.inputbox {
+  width: 100%;
+  margin-left: 0%;
+  display: flex;
+  gap: 5px;
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+  padding: 20px;
+  background-color: #001d24a7;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.inputboxCgpa {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.inputboxSgpa2 {
+  display: flex;
+  gap: 10px;
+}
+
+.inpBox1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+}
+
+/* Target the scrollbar track (the background) */
+.scrollable-form::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+/* Track (background) */
+.scrollable-form::-webkit-scrollbar-track {
+  background: none; /* Background color of the scrollbar track */
+}
+
+/* Thumb (the draggable handle) */
+.scrollable-form::-webkit-scrollbar-thumb {
+  background: none; /* Color of the scrollbar handle */
+  border-radius: 6px; /* Rounded corners for the handle */
+}
+
+/* Thumb on hover */
+.scrollable-form::-webkit-scrollbar-thumb:hover {
+  background: none; /* Color of the handle when hovered */
+}
+
+@media (max-width: 658px) {
+  .sgpaCal {
+    width: 100%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    margin-left: 0%;
+    border-radius: 0px;
+    box-shadow: 0px 0px 10px rgb(5, 6, 6);
+    height: 100%;
+    margin-top: 0%;
+    background-color: #001d24;
+  }
+
+  .inputboxSgpa2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .mainDiv h2 {
+    color: orangered;
+    text-align: center;
+    border-bottom: 2px double skyblue;
+    padding: 10px;
+  }
+
+  .inputDiv {
+    padding: 10px;
+    overflow-y: auto;
+    overflow-y: scroll; /* Enable vertical scrolling */
+    height: 500px;
+    max-height: 550px;
+    width: 100%;
+    margin-left: 0%;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 0px;
+    background-image: url("https://cgpacalcs.com/wp-content/uploads/2024/11/SGPA-Calculator-2.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #submit {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: blue;
+    font-size: x-large;
+    margin-left: 35%;
+    border: none;
+    color: red;
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
+    font-weight: bold;
+    background-color: black;
+
+    transition: border 0.3s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth transition */
+  }
+
+  #submit:hover {
+    box-shadow: 0px 0px 10px rgb(103, 208, 250);
+    border-radius: 15px;
+  }
+
+  #sgpa {
+    margin-top: 15px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    border-radius: 40px;
+    font-size: 1.23rem;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  #sgpa h3 {
+    font-size: 1rem;
+    text-shadow: 0px 0px 10px greenyellow;
+  }
+
+  .saveBtn {
+    height: 40px;
+    width: 100px;
+    padding: 0px 10px 0px 10px;
+    background: none;
+    border: none;
+    color: blue;
+    background-color: skyblue;
+    border-radius: 15px;
+    transition: border 0.3s ease-in-out; /* Smooth transition */
+  }
+
+  .saveBtn:hover {
+    border: 4px solid rgb(2, 106, 147);
+    border-radius: 20px;
+    background-color: rgba(135, 207, 235, 0.79);
+  }
+
+  .sunNum {
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    outline: none;
+    background-color: black;
+    padding: 0px;
+    border: none;
+    transition: box-shadow 0.2s ease-in-out; /* Smooth transition */
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px skyblue;
+  }
+
+  .sunNum:hover {
+    box-shadow: 0px 0px 10px skyblue;
+  }
+
+  .inputGenerate {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(1, 47, 84);
+    color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 30px;
+    border: solid 2px rgb(1, 47, 84);
+    gap: 20px;
+  }
+
+  .Inp {
+    width: 150px;
+    color: black;
+    outline: none;
+    border: none;
+    padding: 7px;
+    background-color: rgba(255, 250, 250, 0.8);
+    border-radius: 7px;
+    text-align: center;
+  }
+
+  .Inp1 {
+    background-color: rgba(255, 250, 250, 0.45);
+  }
+
+  .div1 {
+    display: flex;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    gap: 20px;
+    color: snow;
+    padding: 20px;
+    width: 100%;
+    margin-left: 0%;
+    font-size: 0.7rem;
+  }
+
+  .div1 h3 {
+    font-size: 1.1rem;
+  }
+
+  .inputbox {
+    width: 100%;
+    margin-left: 0%;
+    display: flex;
+
+    gap: 5px;
+    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+    padding: 20px;
+    background-color: #001d24a7;
+    border-radius: 20px;
+  }
+
+  .inpBox1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+  }
+
+  /* Target the scrollbar track (the background) */
+  .scrollable-form::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+
+  /* Track (background) */
+  .scrollable-form::-webkit-scrollbar-track {
+    background: none; /* Background color of the scrollbar track */
+  }
+
+  /* Thumb (the draggable handle) */
+  .scrollable-form::-webkit-scrollbar-thumb {
+    background: none; /* Color of the scrollbar handle */
+    border-radius: 6px; /* Rounded corners for the handle */
+  }
+
+  /* Thumb on hover */
+  .scrollable-form::-webkit-scrollbar-thumb:hover {
+    background: none; /* Color of the handle when hovered */
+  }
+}
