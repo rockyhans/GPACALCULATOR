@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/GPACALCULATOR/static/css/main.ad9975ff.css",
+    "main.js": "/GPACALCULATOR/static/js/main.38442ebb.js",
+    "static/js/488.9c92ff38.chunk.js": "/GPACALCULATOR/static/js/488.9c92ff38.chunk.js",
+    "static/media/h1.jpg": "/GPACALCULATOR/static/media/h1.8970fb750e67cc8e532f.jpg",
+    "static/media/SGPA-Calculator-2.webp": "/GPACALCULATOR/static/media/SGPA-Calculator-2.2f3d6765ea26a30188ae.webp",
+    "static/media/image.jpg": "/GPACALCULATOR/static/media/image.8768d3d760457d75322d.jpg",
+    "index.html": "/GPACALCULATOR/index.html",
+    "main.ad9975ff.css.map": "/GPACALCULATOR/static/css/main.ad9975ff.css.map",
+    "main.38442ebb.js.map": "/GPACALCULATOR/static/js/main.38442ebb.js.map",
+    "488.9c92ff38.chunk.js.map": "/GPACALCULATOR/static/js/488.9c92ff38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad9975ff.css",
+    "static/js/main.38442ebb.js"
+  ]
+}
