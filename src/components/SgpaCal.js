@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./sgpaCal.css"; 
+import "./sgpaCal.css";
 
 function SgpaCal() {
   const [subjectCount, setSubjectCount] = useState(0);
@@ -125,7 +125,9 @@ function SgpaCal() {
         </div>
         <form onSubmit={handleSgpaSubmit}>
           <div className="inputDiv scrollable-form">
+            <br/>
             {generateSubjectInputs()}
+            <br/>
           </div>
           <button type="submit" id="submit">
             <div className="sub-text">
@@ -133,7 +135,6 @@ function SgpaCal() {
             </div>
           </button>
         </form>
-
         {sgpa !== null && (
           <div id="sgpa">
             <h3>
@@ -150,7 +151,6 @@ function SgpaCal() {
           </div>
         )}
       </div>
-
       <div
         className="navigation"
         style={{ paddingBottom: "15px", paddingTop: "15px", margin: "0px" }}

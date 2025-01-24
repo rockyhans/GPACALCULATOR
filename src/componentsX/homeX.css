@@ -1,4 +1,4 @@
-.mainPageX {
+.mainPageX { 
   width: 70%;
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
@@ -9,6 +9,7 @@
   box-shadow: 0px 0px 10px rgb(5, 6, 6);
   height: 100%;
   padding-bottom: 20px;
+  margin-top: 5px;
 }
 
 .mainPageX h2 {
@@ -197,8 +198,8 @@ input:focus {
 
 @media (max-width: 768px) {
   .mainPageX {
-    width: 100%;
-    margin-left: 0%;
+    width: 98%;
+    margin-left: 1%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     background-color: #001d24;
@@ -206,8 +207,8 @@ input:focus {
     box-shadow: 0px 0px 10px rgb(5, 6, 6);
     height: 100%;
     padding-bottom: 20px;
-    margin-top: 0%;
-    margin: 0;
+    margin-top: 5px;
+    text-align: center;
   }
 
   .mainPageX h2 {
@@ -277,7 +278,7 @@ input:focus {
 
   .signUpForm {
     height: auto;
-    width: 100%;
+    width: auto;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -292,7 +293,7 @@ input:focus {
   }
   .loginForm {
     height: auto;
-    width: 100%;
+    width: auto;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -305,6 +306,8 @@ input:focus {
     box-shadow: 0px 0px 10px black;
     animation: fadeIn 1s ease-in-out;
   }
+
+
 
   .signUpPage form {
     display: flex;
@@ -371,7 +374,7 @@ input:focus {
 }
 
 .homeBtn {
-  padding: 5px;
+  padding: 10px;
   background: none;
   padding-left: 15px;
   padding-right: 15px;

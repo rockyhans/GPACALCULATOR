@@ -4,11 +4,10 @@ import "./instructions.css";
 
 function mainPages() {
   return (
-    <div className="instruct">
+    <div className="instruction">
       <h1>
         <u>Instructions:</u>
       </h1>
-
       <div className="instPage1">
         <h2>
           <u>SGPA Calculator (Semester Grade Point Average):</u>
@@ -117,10 +116,9 @@ function mainPages() {
           </p>
         </section>
       </div>
-
       <div className="instPage1">
         <div>
-          <h3 className="mar1">Where do we need SGPA/CGPAS in our life?</h3>
+          <h3>Where do we need SGPA/CGPAS in our life?</h3>
           <section id="calculation">
             <div>
               <ul>
@@ -145,7 +143,7 @@ function mainPages() {
                 </li>
               </ul>
             </div>
-            <h3 className="mar1"> Difference Between SGPA and CGPA </h3>
+            <h3> Difference Between SGPA and CGPA </h3>
 
             <div>
               <ul>
@@ -164,7 +162,7 @@ function mainPages() {
                 </li>
                 <li>
                   {" "}
-                  For example : <br />
+                  For example :
                   <p id="text-cent">
                     if the SGPA of a student in his 1st and 2nd semester is 6
                     and 8, respectively,
@@ -184,32 +182,31 @@ function mainPages() {
             </div>
           </section>
         </div>
-      </div>
-
-      <div className="wrapper two">
-        <div className="neon">
-          <h1 id="thank" style={{ border: "none" }}>
-            THANK YOU
-          </h1>
+        <div className="wrapper two">
+          <div className="neon">
+            <h1 id="thank" style={{ border: "none" }}>
+              THANK YOU
+            </h1>
+          </div>
         </div>
-      </div>
 
-      <div className="navigation">
-        <Link to="/" className="nav-link">
-          <div className="bo-text">
-            <b> &nbsp; HOME &nbsp;</b>
-          </div>
-        </Link>
-        <Link to="/SgpaCal" className="nav-link">
-          <div className="bo-text">
-            <b> &nbsp; SGPA CALCULATOR &nbsp;</b>
-          </div>
-        </Link>
-        <Link to="/CgpaCal" className="nav-link">
-          <div className="bo-text">
-            <b> &nbsp; CGPA CALCULATOR &nbsp;</b>
-          </div>
-        </Link>
+        <div className="navigation">
+          <Link to="/" className="nav-link">
+            <div className="bo-text">
+              <b> &nbsp; HOME &nbsp;</b>
+            </div>
+          </Link>
+          <Link to="/SgpaCal" className="nav-link">
+            <div className="bo-text">
+              <b> &nbsp; SGPA CALCULATOR &nbsp;</b>
+            </div>
+          </Link>
+          <Link to="/CgpaCal" className="nav-link">
+            <div className="bo-text">
+              <b> &nbsp; CGPA CALCULATOR &nbsp;</b>
+            </div>
+          </Link>
+        </div>
       </div>
     </div>
   );

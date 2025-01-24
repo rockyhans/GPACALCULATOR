@@ -1,13 +1,18 @@
 body {
-  
-  background-color: rgb(57, 56, 56);
+  background-color: #000315;
   color: aliceblue;
+  padding-bottom: 5px;
+}
+
+h2{
+  margin: 0%;
+}
+h1{
+  margin: 0%;
 }
 
 @media (max-width: 768px) {
-
   body {
-  
     color: aliceblue;
   }
 }
@@ -45,15 +50,12 @@ body {
   }
 }
 
-
-
-
 .error-page-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   text-align: center;
   padding: 20px;
 }
@@ -95,4 +97,3 @@ body {
 .home-link:hover {
   background-color: rgba(128, 128, 128, 0.662);
 }
-

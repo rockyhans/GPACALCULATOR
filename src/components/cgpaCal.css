@@ -3,7 +3,7 @@
     margin: 20px;
   }
    */
-  .calculator {
+   .calculator {
     background-color: #f2f2f2;
     border-radius: 15px;
     padding: 30px;
@@ -59,7 +59,7 @@
     100% {
       box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
     }
-  }
+  } 
 /*   
   .navigation {
     margin: 20px;

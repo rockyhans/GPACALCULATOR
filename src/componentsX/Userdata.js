@@ -4,7 +4,7 @@ import SGPAForm from "./SGPAForm";
 import CGPAForm from "./CGPAForm";
 import "./homeX.css";
 
-function Userdata() {
+function Userdata() { 
   const [showSignup, setShowSignup] = useState(false);
   const [showLogin, setShowLogin] = useState(false);
 

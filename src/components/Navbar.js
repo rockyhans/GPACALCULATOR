@@ -11,6 +11,14 @@ function Navbar() {
           </u>
         </h2>
       </div>
+      {/* <header className="navbar">
+        <p>
+         
+          <u>
+            <b>Easy SGPA & CGPA Calculator</b>
+          </u>
+        </p>
+      </header> */}
     </>
   );
 }

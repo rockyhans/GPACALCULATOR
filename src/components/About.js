@@ -4,7 +4,7 @@ import "./about.css";
 import img from "./image.jpg";
 
 function About() {
-  return (
+  return ( 
     <div className="aboutPage">
       <div className="aboutContainer">
         <img src={img} alt="Profile" className="profileImage" />

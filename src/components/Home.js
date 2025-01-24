@@ -4,7 +4,7 @@ import "./home.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-function Home() {
+function Home() { 
   return (
     <>
       <div className="mainPage">

@@ -147,9 +147,7 @@
   display: flex;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: snow;
-  padding: 20px;
   width: 80%;
-  margin-left: 10%;
 }
 
 .inputbox {
@@ -209,14 +207,13 @@
 
 @media (max-width: 658px) {
   .sgpaCal {
-    width: 100%;
+    width: 98%;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 1.2em;
-    margin-left: 0%;
-    border-radius: 0px;
+    margin-left: 1%;
     box-shadow: 0px 0px 10px rgb(5, 6, 6);
     height: 100%;
-    margin-top: 0%;
+    margin-top: 5px;
     background-color: #001d24;
   }
 
@@ -234,19 +231,20 @@
   }
 
   .inputDiv {
-    padding: 10px;
+    padding: 0px;
     overflow-y: auto;
     overflow-y: scroll; /* Enable vertical scrolling */
     height: 500px;
     max-height: 550px;
-    width: 100%;
-    margin-left: 0%;
+    width: 98%;
+    margin-left: 1%;
     box-shadow: 0px 0px 10px black;
     border-radius: 0px;
     background-image: url("https://cgpacalcs.com/wp-content/uploads/2024/11/SGPA-Calculator-2.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 20px;
   }
 
   #submit {
@@ -324,6 +322,8 @@
     transition: box-shadow 0.2s ease-in-out; /* Smooth transition */
     margin-top: 10px;
     box-shadow: 0px 0px 10px skyblue;
+    padding-right: 0px;
+    margin-left: 20px;
   }
 
   .sunNum:hover {
@@ -362,23 +362,19 @@
   .div1 {
     display: flex;
     font-family: Georgia, "Times New Roman", Times, serif;
-    gap: 20px;
     color: snow;
-    padding: 20px;
-    width: 100%;
-    margin-left: 0%;
-    font-size: 0.7rem;
+    width: 80%;
   }
 
   .div1 h3 {
     font-size: 1.1rem;
+    padding-left: 10px;
   }
 
   .inputbox {
     width: 100%;
-    margin-left: 0%;
+    margin-left: 1%;
     display: flex;
-
     gap: 5px;
     -webkit-backdrop-filter: blur(18px);
     backdrop-filter: blur(18px);

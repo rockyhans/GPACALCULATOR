@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./gpa.css";
+import "./gpa.css"; 
 
 function SGPAForm() {
   const [sgpa, setSgpa] = useState("");
